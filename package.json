@@ -4,7 +4,9 @@
   "description": "A fallback loader",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir lib --copy-files --loose-mode",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "babel src --out-dir lib --copy-files --watch"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/boopathi/fallback-loader/issues"
   },
-  "homepage": "https://github.com/boopathi/fallback-loader"
+  "homepage": "https://github.com/boopathi/fallback-loader",
+  "devDependencies": {
+    "babel": "^5.8.21"
+  }
 }
