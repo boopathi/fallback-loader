@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/boopathi/fallback-loader",
   "devDependencies": {
-    "babel": "^5.8.21"
+    "babel": "^6.23.0"
   }
 }
