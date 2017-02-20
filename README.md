@@ -1,5 +1,7 @@
 # fallback-loader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/boopathi/fallback-loader.svg)](https://greenkeeper.io/)
+
 ## NOT COMPLETE. UNDER DEVELOPMENT
 
 A webpack fallback loader
